@@ -99,6 +99,7 @@ const checkWinner=()=>{
                 if(b==9){
                     msg.style.display="block";
                     msg.innerText="It was Draw";
+                    resetBtn1.style.display="inline";
 
                 }
             }
